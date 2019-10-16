@@ -1,0 +1,17 @@
+body {
+  color: blue;
+}
+@import "@material/button/mdc-button";
+
+.foo-button {
+  @include mdc-button-ink-color(teal);
+  @include mdc-states(teal);
+}
+
+@import "@material/card/mdc-card";
+@import "@material/select/mdc-select";
+@import "@material/list/mdc-list";
+@import "@material/menu-surface/mdc-menu-surface";
+@import "@material/menu/mdc-menu";
+@import "@material/form-field/mdc-form-field";
+@import "@material/radio/mdc-radio";
